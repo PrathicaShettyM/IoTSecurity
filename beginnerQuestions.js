@@ -1,8 +1,8 @@
 let questions = [
     {
-        numb: 1,
-        question: "1. What does IoT stand for?",
-        answer: "b. Internet of Things ",
+        qno: 1,
+        question: "What does IoT stand for?",
+        answer: "b. Internet of Things",
         options: [
             "a. Independent Object Technology",
             "b. Internet of Things",
@@ -11,7 +11,7 @@ let questions = [
         ]
     },
     {
-        numb: 2,
+        qno: 2,
         question: "What does a strong password for your IoT device typically include?",
         answer: "b. A combination of upper and lowercase letters, numbers, and symbols",
         options: [
@@ -22,7 +22,7 @@ let questions = [
         ]
     },
     {
-        numb: 3,
+        qno: 3,
         question: "Why is it important to secure your home Wi-Fi network for your IoT devices?",
         answer: "b. It prevents unauthorized access to your devices and personal information",
         options: [
@@ -33,7 +33,7 @@ let questions = [
         ]
     },
     {
-        numb: 4,
+        qno: 4,
         question: "It's safe to use the default username and password that come with your IoT device.",
         answer: "c. False",
         options: [
@@ -44,7 +44,7 @@ let questions = [
         ]
     },
     {
-        numb: 5,
+        qno: 5,
         question: "Which of these is an example of a physical security measure for your IoT devices?",
         answer: "d. Keeping your devices in a locked cabinet",
         options: [

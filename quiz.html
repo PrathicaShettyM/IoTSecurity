@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <main class="main">
@@ -16,9 +17,9 @@
                 IoT Security
             </a>
             <nav class="navbar">
-                <a href="">Home</a>
-                <a href="">Learn</a>
-                <a href="" class="active">Quiz</a>
+                <a href="#">Home</a>
+                <a href="#">Learn</a>
+                <a href="#" class="active">Quiz</a>
             </nav>
         </header>
 
@@ -32,20 +33,9 @@
                         <span class="header-score">Score: 0 / 5</span>
                     </div>
 
-                    <h2 class="question-text">1. What does IoT stand for?</h2>
+                    <h2 class="question-text">What does IoT stand for?</h2>
                     <div class="option-list">
-                        <div class="option">
-                            <span>a. Independent Object Technology</span>
-                        </div>
-                        <div class="option">
-                            <span>b. Internet of Things </span>
-                        </div>
-                        <div class="option">
-                            <span>c. Internal Operations Team</span>
-                        </div>
-                        <div class="option">
-                            <span>d. International Organization Table</span>
-                        </div>
+                        <!-- options -->
                     </div>
 
                     <div class="quiz-footer">
@@ -53,14 +43,41 @@
                         <button class="next-btn">Next</button>
                     </div>
                 </div>
+
+                <div class="result-box">
+                    <h2>Quiz Result!</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+                        <span class="score-text">Your Score 0 out of 5</span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Try Again</button>
+                        <button class="goHome-btn">Go To Home</button>
+                    </div>
+                </div>
             </section>
 
             <section class="card">
                 <div class="content">
                     <h1>Level 1: Beginner</h1>
-                    <p>Test your understanding of IoT security</p>
+                    <p>Test your Basic understanding of IoT security</p>
                     <button class="start-btn">Start Quiz</button>
                 </div>
+
+                <!-- <div class="content">
+                    <h1>Level 2: Intermediate</h1>
+                    <p>Test your Intermediate understanding of IoT security</p>
+                    <button class="start-btn">Start Quiz</button>
+                </div>
+
+                <div class="content">
+                    <h1>Level 3: Beginner</h1>
+                    <p>Test your understanding of IoT security in depth</p>
+                    <button class="start-btn">Start Quiz</button>
+                </div> -->
         </section>
     </div>
     </main>
@@ -74,7 +91,7 @@
 
         <div class="btn-group">
             <button class="info-btn exit-btn">Exit Quiz</button>
-            <a href="" class="info-btn continue-btn">Continue</a>
+            <a href="#" class="info-btn continue-btn">Continue</a>
         </div>
     </div>
     <script src="./quiz.js"></script>
