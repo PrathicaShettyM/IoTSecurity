@@ -1,6 +1,6 @@
 let questions = [
     {
-        numb: 1,
+        qno: 1,
         question: "How can implementing a PKI (Public Key Infrastructure) improve the security of communication between IoT devices?",
         answer: "d. Each device has a unique digital certificate for secure communication",
         options: [
@@ -11,7 +11,7 @@ let questions = [
         ]
     },
     {
-        numb: 2,
+        qno: 2,
         question: "What are some challenges associated with securing industrial IoT (IIoT) devices in critical infrastructure settings?",
         answer: "b. Long lifespans of legacy equipment that may not support security updates",
         options: [
@@ -22,7 +22,7 @@ let questions = [
         ]
     },
     {
-        numb: 3,
+        qno: 3,
         question: "How can machine learning be used to enhance IoT security",
         answer: "a. Automate security tasks and anomaly detection",
         options: [
@@ -33,7 +33,7 @@ let questions = [
         ]
     },
     {
-        numb: 4,
+        qno: 4,
         question: "What are some challenges associated with securing industrial IoT (IIoT) devices in critical infrastructure settings?",
         answer: "a. Long lifespans of legacy equipment that may not support security updates",
         options: [
@@ -44,7 +44,7 @@ let questions = [
         ]
     },
     {
-        numb: 5,
+        qno: 5,
         question: "What is a potential side-effect of implementing a lightweight encryption algorithm for communication between resource-constrained IoT devices?",
         answer: "c. Increased processing overhead on the devices, potentially impacting performance.",
         options: [
