@@ -15,12 +15,12 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 5%;
+    padding: 10px 5%;
     background-color: rgb(2, 185, 54);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 100;
+    z-index: 1;
 }
 
 .logo{
@@ -41,8 +41,9 @@ body{
 
 .navbar a:hover,
 .navbar a.active{
+    transition: 0.5s ease;
     font-weight: 800;
-    color: rgb(2, 100, 38);
+    color: white;
 }
 
 .main{
