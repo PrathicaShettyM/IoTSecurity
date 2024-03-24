@@ -10,6 +10,7 @@ body{
     overflow: hidden;
 }
 
+/* navbar */
 .header{
     position: fixed;
     top: 0;
@@ -46,6 +47,7 @@ body{
     color: white;
 }
 
+/* quiz section */
 .main{
     background-color: black;
     transition: 0.3s ease;
@@ -158,6 +160,7 @@ body{
     transform: translate(-50%, -50%) scale(1);
 }
 
+/* final result box */
 .result-box h2{
     font-size: 60px;
 }
@@ -328,7 +331,7 @@ body{
     max-width: 600px;
     display: flex;
     align-items: center;
-    /*  */
+
     flex-direction: column;
 }
 
@@ -442,8 +445,3 @@ body{
     background-color: rgb(155, 5, 50);
     color: white;
 }
-
-
-
-
-
